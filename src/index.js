@@ -32,7 +32,7 @@ app.post('/webhook/', (req, res) => {
     res.sendStatus(200);
 });
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Server is listening on https://localhost:${PORT}`);
 });
 

@@ -18,6 +18,11 @@ const defaultMessage = (senderId) => {
                     content_type: 'text',
                     title: 'Acerca de',
                     payload: 'ABOUT_PAYLOAD'
+                },
+                {
+                    content_type: 'text',
+                    title: 'Soporte',
+                    payload: 'CONTACT_PAYLOAD'
                 }
             ]
         }
