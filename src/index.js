@@ -23,8 +23,9 @@ app.get('/webhook', (req, res) => {
 
 app.post('/webhook/', (req, res) => {
     const webhook_event = req.body.entry[0];
-    if (webhook_event.messaging) {
-        webhook_event.messaging.forEach(event => {
+    const messaging = webhook_event.messaging;
+    if (messaging) {
+        messaging.forEach(event => {
             handleEvent(event.sender.id, event);
         });
     }
