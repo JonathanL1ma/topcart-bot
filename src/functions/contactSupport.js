@@ -15,7 +15,7 @@ const contactSupport = (senderId) => {
                         {
                             type: 'phone_number',
                             title: 'Llamar a un asesor',
-                            payload: '+50247086113'
+                            payload: '+50212312322'
                         }
                     ]
                 }

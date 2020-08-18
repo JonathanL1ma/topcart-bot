@@ -1,6 +1,6 @@
 const request = require('request');
 
-const ACCESS_TOKEN = '';
+const ACCESS_TOKEN = 'EAAEy4ACYbZBQBABG2b70GnYzPnz2ENIJLVmKAWeAtZBEZAJOouVYbYQZB7IfiLKzZC1CZBmdMMUTXdZBiZAbl9g0L2brbqKIgu2HAbgfDtqCqwFTfSlOIZBnLO6rbfLa6OfCMC53ZA6o4EKRKpBb9ZCmh4ajlvCFNCtXU63iWwwOjQZCKbKXZAVjKjhqz';
 
 const callSendApi = (messageToResponse) => {
     request({
